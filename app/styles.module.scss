@@ -1,7 +1,6 @@
 @import '@/variables';
 
 .main {
-  padding: 5px 10px;
   display: flex;
   justify-content: center;
   color: $primary-color;
@@ -12,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .header {
@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.orange_gradient {
+.orangeGradient {
   background-image: linear-gradient(to right, #ffc107, #ff9800, #ffeb3b);
   background-clip: text;
   color: transparent;
